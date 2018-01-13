@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# General
+alias x="exit"
+
+# Git
+alias g="git"
+alias gst="git status"
+alias gpo="git pull origin"
+alias gpu="git push origin"
