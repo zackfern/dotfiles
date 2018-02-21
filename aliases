@@ -5,9 +5,10 @@ alias x="exit"
 
 # Git
 alias g="git"
-alias gst="git status"
+alias gco="git checkout"
 alias gpo="git pull origin"
 alias gpu="git push origin"
+alias gst="git status"
 
 # Quick access to GitHub Desktop app
 alias gh="github"
