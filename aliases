@@ -13,3 +13,5 @@ alias glog="git log"
 
 # Quick access to GitHub Desktop app
 alias gh="github"
+
+alias ytd="youtube-dl"
