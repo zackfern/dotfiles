@@ -9,6 +9,7 @@ alias gco="git checkout"
 alias gpo="git pull origin"
 alias gpu="git push origin"
 alias gst="git status"
+alias glog="git log"
 
 # Quick access to GitHub Desktop app
 alias gh="github"
