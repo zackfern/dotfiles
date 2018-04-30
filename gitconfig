@@ -13,3 +13,5 @@
 [user]
 	name = Zack Fernandes
 	email = zack@ohnoco.com
+[core]
+	excludesfile = /Users/zackfern/.gitignore
