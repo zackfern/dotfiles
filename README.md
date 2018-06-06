@@ -7,6 +7,11 @@
 - [Homebrew](https://brew.sh)
 - [iTerm 2](https://www.iterm2.com/)
 
+### System Preferences
+- **Disable Smart Quotes & Stuff**
+  - **Navigate to:** System Preferences » Keyboard » Text
+  - **Uncheck:** Correct spelling, capitalize automatically, add period, etc.
+
 ## Dotfile Install
 ### VS Code
 - `cd $HOME/Library/Application Support/Code/User`
