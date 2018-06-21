@@ -14,6 +14,10 @@
 - **Make buttons tab-able**
   - **Navigate to:** System Preferences » Keyboard » Shortcuts
   - **Click:** All Controls
+- **Enable Cmd+F3 for Desktop**
+  - **Navigate to:** System Preferences » Keyboard » Shortcuts » Mission Control
+  - **Find:** Show Desktop
+  - **Add the Shortcut**
 
 ## Dotfile Install
 ### VS Code
