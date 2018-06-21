@@ -11,6 +11,9 @@
 - **Disable Smart Quotes & Stuff**
   - **Navigate to:** System Preferences » Keyboard » Text
   - **Uncheck:** Correct spelling, capitalize automatically, add period, etc.
+- **Make buttons tab-able**
+  - **Navigate to:** System Preferences » Keyboard » Shortcuts
+  - **Click:** All Controls
 
 ## Dotfile Install
 ### VS Code
