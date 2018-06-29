@@ -18,6 +18,11 @@
   - **Navigate to:** System Preferences » Keyboard » Shortcuts » Mission Control
   - **Find:** Show Desktop
   - **Add the Shortcut**
+- **Disable annoying Spaces features**
+  - **Navigate to:** System Preferences » Mission Control
+  - **Disable:** 
+    - Automatically rearrange Spaces based on most recent use
+    - When switching to an application, switch to a Space with open windows for the application
 
 ## Dotfile Install
 ### VS Code
