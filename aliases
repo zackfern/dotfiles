@@ -17,4 +17,9 @@ alias gpd="git push dokku"
 # Quick access to GitHub Desktop app
 alias gh="github"
 
+# Use Hub: https://hub.github.com/
+alias git=hub
+
 alias ytd="youtube-dl"
+
+alias ia="open -a \"iA Writer\""
