@@ -1,5 +1,15 @@
 {
     "editor.tabSize": 2,
     "workbench.startupEditor": "none",
-    "emmet.triggerExpansionOnTab": true
+    "emmet.triggerExpansionOnTab": true,
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 14,
+    "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "window.zoomLevel": 0,
+    "terminal.integrated.fontSize": 16,
+    "workbench.statusBar.feedback.visible": false,
+    "ruby.intellisense": "rubyLocate",
+    "files.trimTrailingWhitespace": true,
+    "terminal.external.osxExec": "iTerm.app"
 }

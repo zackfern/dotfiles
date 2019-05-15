@@ -23,5 +23,10 @@
   {
     "key": "shift+cmd+p",
     "command": "-workbench.action.showCommands"
+  },
+  {
+    "key": "cmd+b",
+    "command": "commandId",
+    "when": "editorTextFocus"
   }
 ]
