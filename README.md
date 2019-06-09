@@ -23,6 +23,10 @@
   - **Disable:** 
     - Automatically rearrange Spaces based on most recent use
     - When switching to an application, switch to a Space with open windows for the application
+- **Enable double tap to drag**
+  - **Navigate to:** System Preferences » Accessibility » Mouse & Trackpad
+  - **Click:** Trackpad Options
+  - **Check:** Enable dragging: [without drag lock]
 
 ## Dotfile Install
 ### VS Code
