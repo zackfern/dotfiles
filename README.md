@@ -11,6 +11,9 @@
 - **Disable Smart Quotes & Stuff**
   - **Navigate to:** System Preferences » Keyboard » Text
   - **Uncheck:** Correct spelling, capitalize automatically, add period, etc.
+- **Disable automatic keyboard brightness**
+  - **Navigate to:** System Preferences » Keyboard » Keyboard
+  - **Uncheck:** Adjust keyboard brightness in low light
 - **Make buttons tab-able**
   - **Navigate to:** System Preferences » Keyboard » Shortcuts
   - **Click:** All Controls
@@ -20,7 +23,7 @@
   - **Add the Shortcut**
 - **Disable annoying Spaces features**
   - **Navigate to:** System Preferences » Mission Control
-  - **Disable:** 
+  - **Disable:**
     - Automatically rearrange Spaces based on most recent use
     - When switching to an application, switch to a Space with open windows for the application
 - **Enable double tap to drag**
