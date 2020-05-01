@@ -20,3 +20,6 @@ alias git=hub
 alias ytd="youtube-dl"
 
 alias ia="open -a \"iA Writer\""
+
+# Use The Silver Searcher to search only Ruby files
+alias rbag="ag -G '.*\.rb\$'"
