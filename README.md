@@ -30,9 +30,12 @@
   - **Navigate to:** System Preferences » Accessibility » Mouse & Trackpad
   - **Click:** Trackpad Options
   - **Check:** Enable dragging: [without drag lock]
+- **Enable control + scroll to zoom**
+  - **Navigate to:** System Preferences » Accessibility » Zoom
+  - **Click:** Use scroll gesture with modifierk eys to zoom
 
 ## Dotfile Install
 ### VS Code
-- `cd $HOME/Library/Application Support/Code/User`
+- `cd $HOME/Library/Application\ Support/Code/User`
 - `ln -s ~/dotfiles/vscode/settings.json ./`
 - `ln -s ~/dotfiles/vscode/keybindings.json ./`
