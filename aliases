@@ -23,3 +23,9 @@ alias ia="open -a \"iA Writer\""
 
 # Use The Silver Searcher to search only Ruby files
 alias rbag="ag -G '.*\.rb\$'"
+
+# Use The Silver Searcher to search only Ruby files, with 3 lines of context and ignoring test files.
+alias rbusages='ag -C 3 -G ".*\.rb" --ignore "*test.rb"'
+
+# Ruby / Rails
+alias be="bundle exec"
