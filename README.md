@@ -33,6 +33,13 @@
 - **Enable control + scroll to zoom**
   - **Navigate to:** System Preferences » Accessibility » Zoom
   - **Click:** Use scroll gesture with modifierk eys to zoom
+- **Setup hot corners**
+  - **Navigate to:** System Preferences » Desktop & Screen Saver
+  - **Click:** Hot Corners...
+  - **Set to:**
+    | **-** | **Mission Control** |
+    |:-:|:-:|
+    | **Desktop** | **-** |
 
 ## Dotfile Install
 ### VS Code
