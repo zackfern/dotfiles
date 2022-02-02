@@ -14,9 +14,6 @@ alias glog="git log"
 # Shortcut to push to Dokku
 alias gpd="git push dokku"
 
-# Use Hub: https://hub.github.com/
-alias git=hub
-
 alias ytd="youtube-dl"
 
 alias ia="open -a \"iA Writer\""
