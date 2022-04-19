@@ -5,13 +5,12 @@
 [alias]
 	st = status
 	ci = commit
+
+[core]
+	excludesfile = ~/.gitignore
+
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
-[user]
-	name = Zack Fernandes
-	email = zack@ohnoco.com
-[core]
-	excludesfile = /Users/zackfern/.gitignore
