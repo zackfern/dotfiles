@@ -1,2 +1,4 @@
-status --is-interactive; and source ~/dotfiles/aliases
-status --is-interactive; and source (rbenv init -|psub)
+if status is-interactive
+    source ~/dotfiles/aliases
+    source (rbenv init -|psub)
+end
