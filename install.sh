@@ -1,5 +1,7 @@
 #!/bin/sh
 
+DIR=$(pwd -P "$0")
+
 # Codespaces-specific setups!
 if [ -n "$CODESPACES" ]; then
   # Step 1: Move existing ~/.gitconfig to ~/.gitconfig.local if ~/.gitconfig.local does not exist
@@ -8,10 +10,10 @@ if [ -n "$CODESPACES" ]; then
   fi
 
   # Step 2: Symlink ~/.dotfiles/gitconfig to ~/.gitconfig
-  ln -sf ~/.dotfiles/gitconfig ~/.gitconfig
+  ln -sf "$DIR"/gitconfig ~/.gitconfig
 
   # Step 3: Source ~/.dotfile/aliases within ~/.bashrc
-  if ! grep -Fxq "source ~/.dotfiles/aliases" ~/.bashrc; then
-    echo "source ~/.dotfiles/aliases" >> ~/.bashrc
+  if ! grep -Fxq "source $DIR/aliases" ~/.bashrc; then
+    echo "source "$DIR"/aliases" >> ~/.bashrc
   fi
 fi
