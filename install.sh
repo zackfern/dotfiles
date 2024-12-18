@@ -16,4 +16,7 @@ if [ -n "$CODESPACES" ]; then
   if ! grep -Fxq "source $DIR/aliases" ~/.bashrc; then
     echo "source "$DIR"/aliases" >> ~/.bashrc
   fi
+
+  # Step 4: Import gh aliases:
+  gh alias import "$DIR/gh-aliases.yml"
 fi

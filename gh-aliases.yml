@@ -1,0 +1,13 @@
+co: pr checkout
+code: '!if [ ! -z "$1" ]; then gh cs code -c "$1"; else gh cs code; fi'
+code-and-ssh: '!if [ ! -z "$1" ]; then gh code-and-ssh-go "$1"; else gh code-and-ssh-prompt; fi'
+code-and-ssh-go: '!gh cs code -c $1; gh cs ssh -c $1'
+code-and-ssh-prompt: '!TF=$(mktemp); gh cs select -f "$TF"; gh code-and-ssh-go `cat $TF`'
+files-changed: pr view --json files --jq ".files[].path"
+lmk: '!gh pr checks $1 --required --fail-fast --watch -i 30; afplay /System/Library/Sounds/Glass.aiff'
+lmk-all: '!gh pr checks $1 --watch -i 30; afplay /System/Library/Sounds/Glass.aiff'
+my-prs: pr list --author @me
+pending-reviews: search prs --review-requested=@me --state=open
+repo-id: api /repos/$1 -q ".id"
+ssh: '!if [ ! -z "$1" ]; then gh cs ssh -c "$1"; else gh cs ssh; fi'
+user-id: api /users/$1 -q ".id"
