@@ -34,12 +34,18 @@
   - **Navigate to:** System Preferences » Accessibility » Zoom
   - **Click:** Use scroll gesture with modifierk eys to zoom
 - **Setup hot corners**
-  - **Navigate to:** System Preferences » Desktop & Screen Saver
+  - **Navigate to:** System Preferences » Desktop & Dock
   - **Click:** Hot Corners...
   - **Set to:**
     | **-** | **Mission Control** |
     |:-:|:-:|
     | **Desktop** | **-** |
+- **Disable drag window tiling:**
+  - **Navigate to:** System Preferences » Desktop & Dock
+  - **Disable:**
+    - Drag windows to screen edges to tile
+    - Drag windows to menu bar to fill screen
+
 
 ## Dotfile Install
 ### VS Code
