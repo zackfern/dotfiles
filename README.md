@@ -45,7 +45,11 @@
   - **Disable:**
     - Drag windows to screen edges to tile
     - Drag windows to menu bar to fill screen
-
+   
+### Misc Commands
+- **Disable desktop icons**
+  - Run `defaults write com.apple.finder CreateDesktop false && killall Finder`
+  - To re-enable: `defaults write com.apple.finder CreateDesktop true && killall Finder`
 
 ## Dotfile Install
 ### VS Code
