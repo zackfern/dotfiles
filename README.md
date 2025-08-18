@@ -45,6 +45,9 @@
   - **Disable:**
     - Drag windows to screen edges to tile
     - Drag windows to menu bar to fill screen
+- **Double-click to minimize**
+  - **Navigate to:** System Preferences » Desktop & Dock
+  - **Change:** Double-click a window's title bar to: Minimize
    
 ### Misc Commands
 - **Disable desktop icons**
