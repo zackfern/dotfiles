@@ -53,6 +53,8 @@
 - **Disable desktop icons**
   - Run `defaults write com.apple.finder CreateDesktop false && killall Finder`
   - To re-enable: `defaults write com.apple.finder CreateDesktop true && killall Finder`
+- **Allow repeating keys when you press & hold**
+  - Run `defaults write -g ApplePressAndHoldEnabled -bool false`
 
 ## Dotfile Install
 ### VS Code
