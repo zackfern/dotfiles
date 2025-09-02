@@ -15,8 +15,8 @@
   - **Navigate to:** System Preferences » Keyboard » Keyboard
   - **Uncheck:** Adjust keyboard brightness in low light
 - **Make buttons tab-able**
-  - **Navigate to:** System Preferences » Keyboard » Shortcuts
-  - **Click:** All Controls
+  - **Navigate to:** System Preferences » Keyboard
+  - **Enable:** Keyboard Navigation
 - **Enable Cmd+F3 for Desktop**
   - **Navigate to:** System Preferences » Keyboard » Shortcuts » Mission Control
   - **Find:** Show Desktop
