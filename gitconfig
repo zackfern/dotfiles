@@ -6,6 +6,7 @@
 	st = status
 	ci = commit
 	cd = diff --cached
+	cdiff = diff --cached
 
 [core]
 	excludesfile = ~/.gitignore
@@ -15,3 +16,6 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+
+[status]
+	showUntrackedFiles = all
