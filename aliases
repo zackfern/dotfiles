@@ -26,3 +26,5 @@ alias rbusages='ag -C 3 -G ".*\.rb" --ignore "*test.rb"'
 
 # Ruby / Rails
 alias be="bundle exec"
+
+alias rgnt="rg --glob=!test"
