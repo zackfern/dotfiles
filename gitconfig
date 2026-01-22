@@ -7,6 +7,7 @@
 	ci = commit
 	cd = diff --cached
 	cdiff = diff --cached
+	conflicts = diff --name-only --diff-filter=U --relative
 
 [core]
 	excludesfile = ~/.gitignore
